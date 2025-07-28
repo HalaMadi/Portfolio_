@@ -3,10 +3,11 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 import { Poppins } from "next/font/google";
+import { ThemeProvider } from "@/components/theme-provider";
 
 // const poppins = Poppins({
 //     subsets: ["latin"],
-//     weight: ["300", "400", "500", "600", "700"], 
+//     weight: ["300", "400", "500", "600", "700"],
 //     variable: "--font-poppins",
 //     display: "swap"
 // });
@@ -27,7 +28,14 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body className={cn("antialiased", InterSans.className)}>
-                {children}
+                <ThemeProvider
+                    attribute="class"
+                    defaultTheme="dark"
+                    enableSystem
+                    disableTransitionOnChange
+                >
+                    {children}
+                </ThemeProvider>
             </body>
         </html>
     );
