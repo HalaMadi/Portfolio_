@@ -22,7 +22,7 @@ const Hero = () => {
                     <div className="dark:bg-black-100 pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]" />
                     <FloatingElements />
                 </div>
-                <div className="relative overflow-hidden">
+                <div className="relative z-20 overflow-hidden">
                     <Spotlight
                         className="-top-40 -left-10 h-screen md:-top-20 md:-left-32"
                         fill="white"
