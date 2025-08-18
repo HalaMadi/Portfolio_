@@ -37,7 +37,7 @@ const Hero = () => {
                     />
                 </div>
                 <div className="relative z-10 my-20 flex justify-center text-center">
-                    <div className="max-w-[90vw] md:max-w-[60vw]">
+                    <div className="max-w-[90vw] md:max-w-[60vw] lg:max-w-[70vw]">
                         <p className="mb-4 text-xs tracking-wider text-blue-100 uppercase">
                             Dynamic Web Magic with Next.js
                         </p>
