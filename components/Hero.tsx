@@ -36,16 +36,16 @@ const Hero = () => {
                         fill="blue"
                     />
                 </div>
-                <div className="relative z-10 my-20 flex justify-center text-center">
-                    <div className="max-w-[90vw] md:max-w-[60vw] lg:max-w-[70vw]">
-                        <p className="mb-4 text-xs tracking-wider text-blue-100 uppercase">
+                <div className="relative z-10 my-24 flex justify-center text-center">
+                    <div className="max-w-[90vw] md:max-w-[80vw] lg:max-w-[60vw]">
+                        <p className="mb-4 text-[12px] tracking-wider text-blue-100 uppercase">
                             Dynamic Web Magic with Next.js
                         </p>
                         <TextGenerateEffect
                             words="Crafting Digital Experiences That Matter"
-                            className="pt-2 text-[38px] font-bold tracking-tight sm:text-5xl lg:text-6xl"
+                            className="text-[40px] font-bold tracking-tight md:text-5xl lg:text-6xl md:pt-2"
                         />
-                        <p className="mx-auto mt-8 max-w-lg text-center text-sm leading-6 font-light md:tracking-wider">
+                        <p className="mx-auto mt-4 max-w-lg text-center text-xs leading-6 font-light md:tracking-wider md:text-sm">
                             Hi! I&apos;m Hala Madi, a Full Stack Developer based
                             in Palestine. transforming ideas into beautiful,
                             functional web applications.
